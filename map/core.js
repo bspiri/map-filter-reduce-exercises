@@ -1,6 +1,9 @@
 function multiplyBy10 (array) {
- // your code here
-};
+    var doubled = array.map(function (num) {
+        return num * 10;
+    });
+    return doubled;
+}
 
 function shiftRight (array) {
  // your code here
